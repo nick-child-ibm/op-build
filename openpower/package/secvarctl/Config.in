@@ -1,0 +1,5 @@
+config BR2_PACKAGE_SECVARCTL
+    bool "secvarctl"
+    depends on BR2_PACKAGE_SKIBOOT
+    help
+      Tool for managing Secure Boot keys
